@@ -30,5 +30,4 @@ module sr_ff_tb;
     $finish;
 
 end
-
 endmodule
