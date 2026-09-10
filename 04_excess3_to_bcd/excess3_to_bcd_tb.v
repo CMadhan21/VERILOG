@@ -13,7 +13,7 @@ module excess3_to_bcd_tb;
         $dumpvars(0, excess3_to_bcd_tb);
         $monitor("Time=%0t | Excess-3=%b | BCD=%b",
                  $time, excess3, bcd);
-
+                 
         for (i = 0; i < 16; i = i + 1) begin
             excess3 = i;
             #10;
