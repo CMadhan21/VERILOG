@@ -1,0 +1,111 @@
+$date
+	Wed Sep 16 22:02:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module excess3_to_bcd_tb $end
+$var wire 4 ! bcd [3:0] $end
+$var reg 4 " excess3 [3:0] $end
+$var integer 32 # i [31:0] $end
+$scope module uut $end
+$var wire 4 $ excess3 [3:0] $end
+$var wire 4 % bcd [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+b0 $
+b0 #
+b0 "
+bx !
+$end
+#10
+b1 "
+b1 $
+b1 #
+#20
+b10 "
+b10 $
+b10 #
+#30
+b0 !
+b0 %
+b11 "
+b11 $
+b11 #
+#40
+b1 !
+b1 %
+b100 "
+b100 $
+b100 #
+#50
+b10 !
+b10 %
+b101 "
+b101 $
+b101 #
+#60
+b11 !
+b11 %
+b110 "
+b110 $
+b110 #
+#70
+b100 !
+b100 %
+b111 "
+b111 $
+b111 #
+#80
+b101 !
+b101 %
+b1000 "
+b1000 $
+b1000 #
+#90
+b110 !
+b110 %
+b1001 "
+b1001 $
+b1001 #
+#100
+b111 !
+b111 %
+b1010 "
+b1010 $
+b1010 #
+#110
+b1000 !
+b1000 %
+b1011 "
+b1011 $
+b1011 #
+#120
+b1001 !
+b1001 %
+b1100 "
+b1100 $
+b1100 #
+#130
+bx !
+bx %
+b1101 "
+b1101 $
+b1101 #
+#140
+b1110 "
+b1110 $
+b1110 #
+#150
+b1111 "
+b1111 $
+b1111 #
+#160
+b10000 #
