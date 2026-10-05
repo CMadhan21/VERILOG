@@ -1,0 +1,89 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002bf90a4a910 .scope module, "hamming_7_4_tb" "hamming_7_4_tb" 2 1;
+ .timescale 0 0;
+v000002bf90aa4e60_0 .net "code", 6 0, L_000002bf90aa4dc0;  1 drivers
+v000002bf90aa52c0_0 .var "data", 3 0;
+S_000002bf90a4aaa0 .scope module, "uut" "hamming_7_4" 2 6, 3 1 0, S_000002bf90a4a910;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "data";
+    .port_info 1 /OUTPUT 7 "code";
+L_000002bf90a48bc0 .functor XOR 1, L_000002bf90aa5900, L_000002bf90aa64e0, C4<0>, C4<0>;
+L_000002bf90a48a00 .functor XOR 1, L_000002bf90a48bc0, L_000002bf90aa5cc0, C4<0>, C4<0>;
+L_000002bf90a48df0 .functor XOR 1, L_000002bf90aa61c0, L_000002bf90aa4aa0, C4<0>, C4<0>;
+L_000002bf90a48ae0 .functor XOR 1, L_000002bf90a48df0, L_000002bf90aa59a0, C4<0>, C4<0>;
+L_000002bf90a48b50 .functor XOR 1, L_000002bf90aa5b80, L_000002bf90aa50e0, C4<0>, C4<0>;
+L_000002bf90a48e60 .functor XOR 1, L_000002bf90a48b50, L_000002bf90aa5f40, C4<0>, C4<0>;
+v000002bf90a47b30_0 .net *"_ivl_1", 0 0, L_000002bf90aa5900;  1 drivers
+v000002bf90a47bd0_0 .net *"_ivl_11", 0 0, L_000002bf90aa61c0;  1 drivers
+v000002bf90a483f0_0 .net *"_ivl_13", 0 0, L_000002bf90aa4aa0;  1 drivers
+v000002bf90a487b0_0 .net *"_ivl_14", 0 0, L_000002bf90a48df0;  1 drivers
+v000002bf90a48490_0 .net *"_ivl_17", 0 0, L_000002bf90aa59a0;  1 drivers
+v000002bf90a47ef0_0 .net *"_ivl_21", 0 0, L_000002bf90aa5b80;  1 drivers
+v000002bf90a48710_0 .net *"_ivl_23", 0 0, L_000002bf90aa50e0;  1 drivers
+v000002bf90a48530_0 .net *"_ivl_24", 0 0, L_000002bf90a48b50;  1 drivers
+v000002bf90a485d0_0 .net *"_ivl_27", 0 0, L_000002bf90aa5f40;  1 drivers
+v000002bf90a48670_0 .net *"_ivl_3", 0 0, L_000002bf90aa64e0;  1 drivers
+v000002bf90a48850_0 .net *"_ivl_31", 0 0, L_000002bf90aa63a0;  1 drivers
+v000002bf90a47c70_0 .net *"_ivl_33", 0 0, L_000002bf90aa6120;  1 drivers
+v000002bf90a48210_0 .net *"_ivl_35", 0 0, L_000002bf90aa6440;  1 drivers
+v000002bf90a47db0_0 .net *"_ivl_37", 0 0, L_000002bf90aa5720;  1 drivers
+v000002bf90a47f90_0 .net *"_ivl_4", 0 0, L_000002bf90a48bc0;  1 drivers
+v000002bf90a48030_0 .net *"_ivl_7", 0 0, L_000002bf90aa5cc0;  1 drivers
+v000002bf90a480d0_0 .net "code", 6 0, L_000002bf90aa4dc0;  alias, 1 drivers
+v000002bf90a48170_0 .net "data", 3 0, v000002bf90aa52c0_0;  1 drivers
+v000002bf90a482b0_0 .net "p1", 0 0, L_000002bf90a48a00;  1 drivers
+v000002bf90aa5040_0 .net "p2", 0 0, L_000002bf90a48ae0;  1 drivers
+v000002bf90aa5ae0_0 .net "p4", 0 0, L_000002bf90a48e60;  1 drivers
+L_000002bf90aa5900 .part v000002bf90aa52c0_0, 3, 1;
+L_000002bf90aa64e0 .part v000002bf90aa52c0_0, 2, 1;
+L_000002bf90aa5cc0 .part v000002bf90aa52c0_0, 0, 1;
+L_000002bf90aa61c0 .part v000002bf90aa52c0_0, 3, 1;
+L_000002bf90aa4aa0 .part v000002bf90aa52c0_0, 1, 1;
+L_000002bf90aa59a0 .part v000002bf90aa52c0_0, 0, 1;
+L_000002bf90aa5b80 .part v000002bf90aa52c0_0, 2, 1;
+L_000002bf90aa50e0 .part v000002bf90aa52c0_0, 1, 1;
+L_000002bf90aa5f40 .part v000002bf90aa52c0_0, 0, 1;
+L_000002bf90aa63a0 .part v000002bf90aa52c0_0, 0, 1;
+L_000002bf90aa6120 .part v000002bf90aa52c0_0, 1, 1;
+L_000002bf90aa6440 .part v000002bf90aa52c0_0, 2, 1;
+L_000002bf90aa5720 .part v000002bf90aa52c0_0, 3, 1;
+LS_000002bf90aa4dc0_0_0 .concat [ 1 1 1 1], L_000002bf90a48a00, L_000002bf90a48ae0, L_000002bf90aa5720, L_000002bf90a48e60;
+LS_000002bf90aa4dc0_0_4 .concat [ 1 1 1 0], L_000002bf90aa6440, L_000002bf90aa6120, L_000002bf90aa63a0;
+L_000002bf90aa4dc0 .concat [ 4 3 0 0], LS_000002bf90aa4dc0_0_0, LS_000002bf90aa4dc0_0_4;
+    .scope S_000002bf90a4a910;
+T_0 ;
+    %vpi_call 2 12 "$dumpfile", "dump.vcd" {0 0 0};
+    %vpi_call 2 13 "$dumpvars", 32'sb00000000000000000000000000000000, S_000002bf90a4a910 {0 0 0};
+    %vpi_call 2 15 "$monitor", "Time=%0t | Data=%b | Code=%b", $time, v000002bf90aa52c0_0, v000002bf90aa4e60_0 {0 0 0};
+    %pushi/vec4 0, 0, 4;
+    %store/vec4 v000002bf90aa52c0_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 1, 0, 4;
+    %store/vec4 v000002bf90aa52c0_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 11, 0, 4;
+    %store/vec4 v000002bf90aa52c0_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 13, 0, 4;
+    %store/vec4 v000002bf90aa52c0_0, 0, 4;
+    %delay 10, 0;
+    %pushi/vec4 15, 0, 4;
+    %store/vec4 v000002bf90aa52c0_0, 0, 4;
+    %delay 10, 0;
+    %vpi_call 2 32 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "hamming_7_4_tb.v";
+    "hamming_7_4.v";
